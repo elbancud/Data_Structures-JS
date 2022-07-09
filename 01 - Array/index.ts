@@ -4,6 +4,12 @@
  * | Interactions
  * | Push = add element in the position[last]
  * | Pop = remove element in the last position[last]
+ * | Shift = remove element[0]
+ * | Access
+ * | One dimentional = arr[n]
+ * | Two dimentional = arr[n][n]
+ * | One dimentional with Obj = arr[n].attrib
+ * | Two dimentional with Obj = arr[n][n].attrib
  */
 
 const invalidArr = ['a', b, 'c',];
@@ -37,4 +43,4 @@ const arrayOfObjects = [{ id: 2, name: "jonel" }, { id: 3, name: "delima" }];
 const accessArrayOfObjects = arrayOfObjects[0].id;
 
 // destructureAnArray
-const [a,b] = validArr;
+const [a, b, ...rest] = validArr;
