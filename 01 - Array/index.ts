@@ -35,3 +35,6 @@ const accessTwoD = twoDimensionArr[0][0];
 
 const arrayOfObjects = [{ id: 2, name: "jonel" }, { id: 3, name: "delima" }];
 const accessArrayOfObjects = arrayOfObjects[0].id;
+
+// destructureAnArray
+const [a,b] = validArr;
