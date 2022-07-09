@@ -28,3 +28,10 @@ const shiftElement = validArr.shift()
 validArr.forEach((element) => element);
 validArr.map(element => element);
 for (let i = 0; i <= validArr.length; i++) validArr[i];
+
+
+const twoDimensionArr = [['a', 'v', 'c', 'd'], ['a', 'v', 'c']];
+const accessTwoD = twoDimensionArr[0][0];
+
+const arrayOfObjects = [{ id: 2, name: "jonel" }, { id: 3, name: "delima" }];
+const accessArrayOfObjects = arrayOfObjects[0].id;
