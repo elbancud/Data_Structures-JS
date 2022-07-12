@@ -12,7 +12,7 @@
  * | Two dimentional with Obj = arr[n][n].attrib
  */
 
-const invalidArr = ['a', b, 'c',];
+const invalidArr = ['a', b, 'c'];
 const validArr = ['a', 'b', 'c', 'd'];
 
 // To Access an array
@@ -23,7 +23,7 @@ const addElement = validArr.push('d');
 // To remove last element in an array
 const popElement = validArr.pop();
 // To remove first element in an array
-const shiftElement = validArr.shift()
+const shiftElement = validArr.shift();
 // To display every elements in the array
 /**
  * | =========== One can use the following =========
@@ -32,14 +32,19 @@ const shiftElement = validArr.shift()
  * | for (convention)
  */
 validArr.forEach((element) => element);
-validArr.map(element => element);
+validArr.map((element) => element);
 for (let i = 0; i <= validArr.length; i++) validArr[i];
 
-
-const twoDimensionArr = [['a', 'v', 'c', 'd'], ['a', 'v', 'c']];
+const twoDimensionArr = [
+  ['a', 'v', 'c', 'd'],
+  ['a', 'v', 'c'],
+];
 const accessTwoD = twoDimensionArr[0][0];
 
-const arrayOfObjects = [{ id: 2, name: "jonel" }, { id: 3, name: "delima" }];
+const arrayOfObjects = [
+  { id: 2, name: 'jonel' },
+  { id: 3, name: 'delima' },
+];
 const accessArrayOfObjects = arrayOfObjects[0].id;
 
 // destructureAnArray

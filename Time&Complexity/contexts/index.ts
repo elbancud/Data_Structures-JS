@@ -8,17 +8,13 @@
 let HIDDEN_PEN = Math.floor(Math.random() * 100);
 let NUMBER_OF_STUDENTS = 100;
 
-function askFirstThenHimAboutTheRest() {
-}
+function askFirstThenHimAboutTheRest() {}
 // O(n)
 function askAll() {
-    for (let i = 0; i <= NUMBER_OF_STUDENTS; i++) {
-        if(i === HIDDEN_PEN) 
-            return true;
-    }
-    return;
+  for (let i = 0; i <= NUMBER_OF_STUDENTS; i++) {
+    if (i === HIDDEN_PEN) return true;
+  }
+  return;
 }
 // O (log n)
-function devideByHalfUntiFinding() {
-
-}
+function devideByHalfUntiFinding() {}
