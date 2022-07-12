@@ -44,3 +44,8 @@ const accessArrayOfObjects = arrayOfObjects[0].id;
 
 // destructureAnArray
 const [a, b, ...rest] = validArr;
+
+// Properties
+const tmpArr = ['a', 'b', 'c'];
+
+const combine = validArr.concat(tmpArr);
