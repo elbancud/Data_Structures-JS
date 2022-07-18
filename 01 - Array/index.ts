@@ -54,3 +54,6 @@ const [a, b, ...rest] = validArr;
 const tmpArr = ['a', 'b', 'c'];
 
 const combine = validArr.concat(tmpArr);
+
+// Shift and Unshift
+const popInFront = validArr.shift();
